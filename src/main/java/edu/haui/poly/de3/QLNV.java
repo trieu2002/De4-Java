@@ -57,8 +57,6 @@ public class QLNV {
         for(NHANVIEN item :list){
             if(item.getLuong()==luong){
                 list2.add(item);
-            }else{
-                System.out.println("Khong tim thay");
             }
         }
     }

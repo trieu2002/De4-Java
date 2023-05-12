@@ -14,7 +14,7 @@ public class NHANVIEN extends NGUOI implements LUONG{
     private double heSoLuong;
     private double luong;
     private double luongCoBanNV;
-    public NHANVIEN(String hoTen, String ngaySinh, String gioiTinh, String cccd,String manv,String nganhNghe,double heSoLuong,double luongCoBan,double luong) {
+    public NHANVIEN(String hoTen, String ngaySinh, String gioiTinh, String cccd,String manv,String nganhNghe,double heSoLuong,double luongCoBan) {
         super(hoTen, ngaySinh, gioiTinh, cccd);
         this.manv=manv;
         this.nganhNghe=nganhNghe;

@@ -37,8 +37,8 @@ public class QLNV {
             System.out.println("Nhap he so luong :");
             double heSo=s.nextDouble();
             s.nextLine();
-            double luong=luongCoban*heSo;
-            NHANVIEN nv=new NHANVIEN(hoTen,ngaySinh,gioiTinh,cccd,ma,nghe,heSo,luongCoban,luong);
+            
+            NHANVIEN nv=new NHANVIEN(hoTen,ngaySinh,gioiTinh,cccd,ma,nghe,heSo,luongCoban);
             list.add(nv);
         }
     }
